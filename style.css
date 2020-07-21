@@ -1,0 +1,270 @@
+/* Hlavní styly */
+
+body {
+    /*background-color: rgb(0, 250, 154);*/
+    background-color: skyblue;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(0, 0, 255);
+    font-size: 1em;
+    color: white;
+}
+
+h1 {
+    border-style: double;
+    border-color: turquoise;
+    color: turquoise;
+    font-size: 2em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    background-color: rgb(0, 0, 255);
+    color: white;
+    font-size: 1.5em;
+    padding: 0.5em;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: rgb(0, 0, 255);
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+nav.navbar-dark {
+    background-color: rgb(0, 0, 255) !important;
+}
+
+.bg-text {
+    background-color: rgba(0, 0, 0, 0.4);
+    /*color: turquoise;
+    border: 3px double turquoise;*/
+    color: white;
+    border: 3px double white;
+    font-weight: 400;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: 'PT Serif', serif;
+    text-transform: uppercase;
+    font-size: 6vw;
+}
+
+#zapati {
+    background-image: radial-gradient(blue, rgb(0, 60, 200), blue);
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
+/* CSS Třídy */
+
+.p {
+    font-size: 2em;
+    font-family: 'PT Serif', serif;
+}
+
+.block {
+    border: double blue 3px;
+    text-align: center;
+    background-color: none;
+    height: auto;
+}
+
+.video {
+    height: auto;
+    width: 80%;
+}
+
+.img {
+    height: auto;
+    width: 80%;
+}
+
+.foto {
+    height: auto;
+    width: 100%;
+}
+
+.foto-kontakt {
+    height: auto;
+    width: 80%;
+}
+
+.pravo {
+    float: right;
+}
+
+.levo {
+    float: left;
+}
+
+.table {
+    display: table-cell;
+}
+
+.iframe {
+    height: auto;
+    width: 100%;
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
+/* Třídy pro úvodní foto */
+
+.pozadi {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-attachment: fixed;
+}
+
+.hlavni-stranka {
+    background-image: url("../img/fontana.jpg");
+}
+
+.pozadi-historie {
+    background-image: url("../img/kral_jiri_z_podebrad-pozadi-historie.jpg");
+}
+
+.pozadi-kultura {
+    background-image: url("../img/park_podebrady_pozadi-kultura.jpg");
+}
+
+.pozadi-turistika {
+    background-image: url("../img/lazensky_park-pozadi-turistika.jpg");
+}
+
+.pozadi-mesto {
+    background-image: url("../img/podebrady-pozadi-zamek.jpg");
+}
+
+.pozadi-jiri {
+    background-image: url("../img/jiri-pozadi.jpg");
+}
+
+.pozadi-lazne {
+    background-image: url("../img/fontana.jpg");
+}
+
+.pozadi-kostel {
+    background-image: url("../img/hav-kostel.jpg");
+}
+
+.pozadi-lod {
+    background-image: url("../img/lod-jiri.jpg");
+}
+
+.pozadi-vlacek {
+    background-image: url("../img/vlacek_zepredu.jpg");
+}
+
+.pozadi-prameny {
+    background-image: url("../img/pramen2.jpg");
+}
+
+.pozadi-film {
+    background-image: url("../img/film-pozadi.jpg");
+}
+
+.pozadi-sochy {
+    background-image: url("../img/jiri-pozadi.jpg");
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
+/* CSS ID */
+
+#pro_vas {
+    text-align: center;
+    color: blue;
+    font-size: 3em;
+    border: dashed 3px blue;
+}
+
+#border {
+    border: dashed 3px blue;
+}
+
+#socha-text {
+    text-align: center;
+    color: blue;
+    font-size: 2em;
+    border: dashed;
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
+/* Tabulka */
+
+table {
+    table-layout: auto;
+    text-align: center;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    border: blue 3px double;
+    width: 100%;
+}
+
+th {
+    font-size: 20px;
+}
+
+
+/*
+th {
+    font-size: 20px;
+}
+
+td {
+    border: solid 3px blue;
+}
+
+td th {
+    border: 3px solid blue;
+    text-align: left;
+    padding: 8px;
+}
+*/
+
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
