@@ -116,11 +116,6 @@ nav.navbar-dark {
     display: table-cell;
 }
 
-.iframe {
-    height: auto;
-    width: 100%;
-}
-
 
 /*------------------------------------------------------------------------------------------------------*/
 
@@ -250,6 +245,12 @@ td th {
 tr:nth-child(even) {
     background-color: lightblue;
 }
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
+/* Responsivita Youtube videí */
 
 .embed-container {
     position: relative;
